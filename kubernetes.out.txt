@@ -1,0 +1,14 @@
+(.devops) shobhitgupta@192 project-ml-microservice-kubernetes % ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "sgapppod" already exists
+NAMESPACE     NAME                               READY   STATUS    RESTARTS        AGE
+default       sgapppod                           1/1     Running   0               88s
+kube-system   coredns-565d847f94-n9smv           1/1     Running   0               5m51s
+kube-system   etcd-minikube                      1/1     Running   0               6m4s
+kube-system   kube-apiserver-minikube            1/1     Running   0               6m4s
+kube-system   kube-controller-manager-minikube   1/1     Running   0               6m4s
+kube-system   kube-proxy-2zxdf                   1/1     Running   0               5m51s
+kube-system   kube-scheduler-minikube            1/1     Running   0               6m4s
+kube-system   storage-provisioner                1/1     Running   1 (5m20s ago)   6m3s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
