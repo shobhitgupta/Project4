@@ -12,3 +12,16 @@ kube-system   storage-provisioner                1/1     Running   1 (5m20s ago)
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
+Adding output from make_prediction
+shobhitgupta@192 project-ml-microservice-kubernetes % ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+shobhitgupta@192 project-ml-microservice-kubernetes % minikube stop
+✋  Stopping node "minikube"  ...
+🛑  Powering off "minikube" via SSH ...
+🛑  1 node stopped.
+shobhitgupta@192 project-ml-microservice-kubernetes %
